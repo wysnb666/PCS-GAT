@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test/cache files
+.pytest_cache/
+.cache/
+
+# IDE files
+.idea/
+.idea_old/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+tmux-*.log
+tmux-server-*.log
+tmux-client-*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large generated artifacts
+artifacts/
+new_artifacts/
+runs/
+outputs/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Large exported traces
+*.jsonl
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Environment files that may contain local paths or secrets
+.env
+.env.*

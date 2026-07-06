@@ -1,0 +1,10 @@
+numpy
+networkx
+scipy
+pandas
+scikit-learn
+matplotlib
+torch==2.8.0
+xgboost==2.1.4
+ortools==9.15.6755
+pytest
